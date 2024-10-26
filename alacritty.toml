@@ -1,10 +1,16 @@
-general.import = ["~/.config/alacritty/themes/themes/tokyo_night_storm.toml"]
+general.import = ["~/.config/alacritty/themes/themes/nord.toml"]
 general.working_directory = "/Users/xyz.isx/Documents"
 
+[env]
+  TERM = "xterm-256color"
+  COLORTERM = "truecolor"
+
 [window]
-  padding = { x = 5, y = 5 }
+  padding = { x = 0, y = 0 }
   decorations = "Buttonless"
-  opacity = 0.8
+  dimensions = { columns = 180, lines = 40 }
+  position = { x = 300, y = 185}
+  opacity = 0.7
   blur = true
   option_as_alt = "Both"
 
@@ -14,7 +20,7 @@ general.working_directory = "/Users/xyz.isx/Documents"
   bold.family = "MesloLGL Nerd Font Mono"
   italic.family = "MesloLGL Nerd Font Mono" 
   bold_italic.family = "MesloLGL Nerd Font Mono"
-  size = 12.8
+  size = 13
 
 # [colors.primary]
   # foreground = "#a97af5"
@@ -23,8 +29,6 @@ general.working_directory = "/Users/xyz.isx/Documents"
 [terminal.shell]
   program = "/opt/homebrew/bin/tmux"
 
-[env]
-  TERM = "xterm-256color"
-  COLORTERM = "truecolor"
+
 
 
