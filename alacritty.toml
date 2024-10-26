@@ -1,16 +1,24 @@
+general.import = ["~/.config/alacritty/themes/themes/tokyo_night_storm.toml"]
+general.working_directory = "/Users/xyz.isx/Documents"
+
 [window]
-  startup_mode = "Fullscreen"
+  padding = { x = 5, y = 5 }
+  decorations = "Buttonless"
+  opacity = 0.8
+  blur = true
+  option_as_alt = "Both"
+
 
 [font]
   normal.family = "MesloLGL Nerd Font Mono"
   bold.family = "MesloLGL Nerd Font Mono"
   italic.family = "MesloLGL Nerd Font Mono" 
   bold_italic.family = "MesloLGL Nerd Font Mono"
-  size = 15
+  size = 12.8
 
-[colors.primary]
-  foreground = "#a97af5"
-  background = "#252629"
+# [colors.primary]
+  # foreground = "#a97af5"
+  #background = "#252629"
 
 [terminal.shell]
   program = "/opt/homebrew/bin/tmux"
@@ -18,4 +26,5 @@
 [env]
   TERM = "xterm-256color"
   COLORTERM = "truecolor"
+
 
