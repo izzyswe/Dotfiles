@@ -33,8 +33,8 @@ use `tmux source-file ~/.tmux.conf`
 https://github.com/romkatv/powerlevel10k/tree/master <br>
 
 `Alacritty` <br>
-https://alacritty.org/config-alacritty.html
-https://github.com/alacritty/alacritty
+https://alacritty.org/config-alacritty.html <br>
+https://github.com/alacritty/alacritty <br>
 https://github.com/alacritty/alacritty-theme <br>
 
 `TMUX` <br>
