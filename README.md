@@ -4,8 +4,12 @@ My setup.
 
 ![alacritty_setup](https://github.com/user-attachments/assets/53626a20-177b-45df-8f4c-ea26f38f8912)
 
-you may need to install powerlevel10k if you want to my p10k file configuration
+## INSTALLATION
+<br>
+
 ### INSTALLING POWERLEVEL10K
+---
+you may need to install powerlevel10k if you want to my p10k file configuration
 1. install use `brew install powerlevel10k` <br> **[ DISCLAIMER ]** powerlevel10k is MACOS only, use starship instead if you prefer universal use
 2. in the terminal, copy & paste the following <br> `echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>/.zshrc`
 3. this will echo or paste `source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme' into the file for you without touching the file
@@ -15,8 +19,19 @@ you may need to install powerlevel10k if you want to my p10k file configuration
 7. this will activate powerlevel10k and open the configuration wizard
 8. happy configuring!
 
+using fasfetch because neofetch is not being maintained anymore
+### INSTALLING FASTFETCH
+---
+1. install use `brew install fastfetch`
+2. if you like to configure it you can manually set it up in your `~/.config/` directory or generate one
+3. to generate use `fastfetch --gen-config`
+4. delete `config.jsonc` and replace it
+5. or copy & paste
+6. to see your fastfetch use `fastfetch`
+7. happy configuring!
+
 ### INSTALLING ALACRITTY & TMUX
-Mac OSX
+---
 1. go to terminal and type `brew install alacritty` and the following for TMUX `brew install tmux`
 2. then change directory for tmux using `cd ~/.tmux.conf`
 3. (if you dont have the file) create directory for alacritty using `mkdir ~/.config/alacritty` then create file using `touch ~/.config/alacritty/alacritty.toml`
@@ -38,6 +53,9 @@ https://github.com/romkatv/powerlevel10k/tree/master <br>
 https://alacritty.org/config-alacritty.html <br>
 https://github.com/alacritty/alacritty <br>
 https://github.com/alacritty/alacritty-theme <br>
+
+`Fastfetch` <br>
+https://github.com/fastfetch-cli/fastfetch <br>
 
 `TMUX` <br>
 https://github.com/tmux/tmux/wiki <br>
