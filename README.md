@@ -2,6 +2,8 @@
 
 My setup.
 
+![alacritty_setup](https://github.com/user-attachments/assets/53626a20-177b-45df-8f4c-ea26f38f8912)
+
 you may need to install powerlevel10k if you want to my p10k file configuration
 ### INSTALLING POWERLEVEL10K
 1. install use `brew install powerlevel10k` <br> **[ DISCLAIMER ]** powerlevel10k is MACOS only, use starship instead if you prefer universal use
