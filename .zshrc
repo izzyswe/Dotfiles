@@ -23,6 +23,18 @@ function cd() {
   fi
 }
 
+# creating an alias for exit and calling it x to exit out, more simpler
+alias x='exit'
+#creating an "alias" for cd ~/Documents/ and calling it home for my own custom home directory
+alias home='cd ~/Documents/'
+# creating an "alias" for touch and calling it cf for create file
+alias cf='touch'
+# creating an "alias" for cd ../ and calling it bk for back or backwards
+alias bk='cd ../'
+
+# https://github.com/zsh-users/zsh-autosuggestions/tree/master
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -34,3 +46,6 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+bindkey -r "^[x"
+
