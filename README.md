@@ -1,4 +1,4 @@
-# Alacritty-config
+# Terminal Config
 
 My setup.
 
