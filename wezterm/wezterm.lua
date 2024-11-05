@@ -78,8 +78,8 @@ config.keys = {
   {key="UpArrow", mods="CTRL|SHIFT", action=wezterm.action.ActivatePaneDirection("Up")},
   {key="DownArrow", mods="CTRL|SHIFT", action=wezterm.action.ActivatePaneDirection("Down")},
   -- split panes
-  {key="h", mods="ALT|SHIFT", action=wezterm.action.SplitHorizontal{domain="CurrentPaneDomain"}},
-  {key="v", mods="ALT|SHIFT", action=wezterm.action.SplitVertical{domain="CurrentPaneDomain"}},
+  {key="v", mods="ALT|SHIFT", action=wezterm.action.SplitHorizontal{domain="CurrentPaneDomain"}},
+  {key="h", mods="ALT|SHIFT", action=wezterm.action.SplitVertical{domain="CurrentPaneDomain"}},
   --exit current pane
   {key="X", mods="ALT|SHIFT", action=wezterm.action.CloseCurrentPane{confirm=true}},
   --toggle fullscreen
