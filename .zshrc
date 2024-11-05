@@ -5,7 +5,7 @@ echo
 
 # Update terminal title with current directory in Zsh
 precmd() {
-  print -Pn "\e]2;zsh - %~\a"
+  print -Pn "\e]2;zsh - %1~\a"
 }
 
 # zsh
