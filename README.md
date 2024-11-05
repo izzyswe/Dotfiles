@@ -32,6 +32,19 @@ using fasfetch because neofetch is not being maintained anymore
 6. to see your fastfetch use `fastfetch`
 7. happy configuring!
 
+### INSTALLING WEZTERM
+---
+1. install use `brew install --cask wezterm`
+2. go to config directory using `cd ~/.config/`
+3. if you download my config, drop it in the `~/.config` otherwise
+4. create a wezterm directory using `mkdir wezterm`
+5. create a fle using `touch wezterm.lua`
+6. otherwise happy configuring!
+7. (sometimes you get issues with wezterm not recognizing it in the `.config` folder, as it generally recognizes it in `~/.wezterm.lua`
+   <br> if that's the case;
+     - go to `~/.zshrc` and put `export WEZTERM_CONFIG_FILE="$HOME/.config/wezterm/wezterm.lua"` and run `source ~/.zshrc`
+     - or in your terminal use `ln -s ~/.config/wezterm/wezterm.lua ~/.wezterm.lua` to link to `~/.wezterm.lua` existing or not
+
 ### INSTALLING ALACRITTY & TMUX
 ---
 1. go to terminal and type `brew install alacritty` and the following for TMUX `brew install tmux`
@@ -50,6 +63,10 @@ use `tmux source-file ~/.tmux.conf`
 ## More Resource
 `Powerlevel10k` <br>
 https://github.com/romkatv/powerlevel10k/tree/master <br>
+
+`Wezterm` <br>
+https://wezfurlong.org/wezterm/index.html <br>
+https://wezfurlong.org/wezterm/config/files.html <br>
 
 `Alacritty` <br>
 https://alacritty.org/config-alacritty.html <br>
