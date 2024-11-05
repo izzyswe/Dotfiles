@@ -3,6 +3,11 @@ echo
 fastfetch
 echo
 
+# Update terminal title with current directory in Zsh
+precmd() {
+  print -Pn "\e]2;zsh - %~\a"
+}
+
 # zsh
 source <(fzf --zsh)
 # created a function for the custom cd command
@@ -27,6 +32,8 @@ function cd() {
 alias x='exit'
 #creating an "alias" for cd ~/Documents/ and calling it home for my own custom home directory
 alias home='cd ~/Documents/'
+alias config='cd ~/.config/'
+alias clr='clear'
 # creating an "alias" for touch and calling it cf for create file
 alias cf='touch'
 # creating an "alias" for cd ../ and calling it bk for back or backwards
