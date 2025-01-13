@@ -58,6 +58,14 @@ using fasfetch because neofetch is not being maintained anymore
 4. copy and paste for the appropriate files
 5. happy configuring!
 
+### INSTALLING GHOSTTY
+1. Use `brew install ghostty`
+2. optionally go to `https://ghostty.org/download` and click `universal Binary`
+3. in the menu bar, go to `Ghostty` and click settings
+4. Copy and Paste the configurations
+5. Save and In Menu Bar click `Reload Configuration`
+6. Happy Configuring
+
 aaand idk for linux and windows sorry, one day I will have to suffer and learn.
 
 to reset and/r activate your tmux config
@@ -68,6 +76,14 @@ use `tmux source-file ~/.tmux.conf`
 ## More Resource
 `Powerlevel10k` <br>
 https://github.com/romkatv/powerlevel10k/tree/master <br>
+
+`Ghostty` <br>
+https://ghostty.org/download <br>
+https://ghostty.org <br>
+https://ghostty.org/docs <br>
+gui configuration: <br>
+https://ghostty.zerebos.com/app <br>
+
 
 `Wezterm` <br>
 https://wezfurlong.org/wezterm/index.html <br>
