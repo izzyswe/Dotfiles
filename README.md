@@ -8,7 +8,7 @@ My setup.
 ### Alacritty Config
 ![alacritty_setup](https://github.com/user-attachments/assets/53626a20-177b-45df-8f4c-ea26f38f8912)
 
-### Ghostty Config
+### Ghostty Config (CURRENT TERMINAL)
 <img width="1674" alt="Screenshot 2025-01-13 at 2 41 47 PM" src="https://github.com/user-attachments/assets/8b7db171-ff10-4e06-9d8e-7bde61bce911" />
 
 ## INSTALLATION
