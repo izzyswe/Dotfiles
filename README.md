@@ -2,9 +2,14 @@
 
 My setup.
 
+### Wezterm Config
 ![wezterm_setup](https://github.com/user-attachments/assets/3855c8e3-1a47-489f-a294-87febc0be00f)
 
+### Alacritty Config
 ![alacritty_setup](https://github.com/user-attachments/assets/53626a20-177b-45df-8f4c-ea26f38f8912)
+
+### Ghostty Config
+comming soon
 
 ## INSTALLATION
 <br>
