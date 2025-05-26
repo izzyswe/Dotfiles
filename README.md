@@ -35,7 +35,8 @@ using fasfetch because neofetch is not being maintained anymore
 4. delete `config.jsonc` and replace it
 5. or copy & paste
 6. to see your fastfetch use `fastfetch`
-7. happy configuring!
+7. (make sure to `brew install imagemagick for image rendering`, `poppler`, and pandoc
+8. happy configuring!
 
 ### INSTALLING WEZTERM
 ---
